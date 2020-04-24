@@ -1,0 +1,33 @@
+{
+  "name": "uwebpro/wp-schedule",
+  "type": "library",
+  "description": "A laravel inspired cron scheduler for WordPress",
+  "keywords": [
+    "wordpress",
+    "WordPress",
+    "blog",
+    "uwebpro",
+    "cron",
+    "schedule",
+    "laravel"
+  ],
+  "homepage": "https://github.com/willpercey-gb/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Will Percey",
+      "email": "info@uwebpro.com",
+      "homepage": "https://uwebpro.com/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "dragonmantank/cron-expression": "^3.0"
+  },
+  "autoload": {
+    "classmap": [
+      "WPSchedule"
+    ]
+  }
+}

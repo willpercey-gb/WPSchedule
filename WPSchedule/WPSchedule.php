@@ -48,8 +48,17 @@ class WPSchedule
         });
     }
 
+    public static function __callStatic($name, $arguments)
+    {
+        self::instance()->$name(...$arguments);
+    }
+
     public static function instance(): self
     {
+        if (!self::$instance) {
+            self::$instance = new self;
+        }
+
         return self::$instance;
     }
 

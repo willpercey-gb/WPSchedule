@@ -1,6 +1,6 @@
 <?php
 
-namespace UWebPro\Wordpress;
+namespace UWebPro\WordPress;
 
 use Cron\CronExpression;
 

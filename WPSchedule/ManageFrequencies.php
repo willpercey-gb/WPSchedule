@@ -1,7 +1,7 @@
 <?php
 
 
-namespace UWebPro\Wordpress;
+namespace UWebPro\WordPress;
 
 trait ManagesFrequencies
 {
